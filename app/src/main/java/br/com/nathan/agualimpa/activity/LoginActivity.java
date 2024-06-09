@@ -17,7 +17,8 @@ import br.com.nathan.agualimpa.R;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button Acessar, Cadastrar_se;
+    Button Acessar, Cadastrar_se,Cadastrar;
+
     private View ValidarCampos;
 
 
@@ -36,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+
       public void Cadastrar(View v){
         Intent intent = new Intent(this,CadastroActivity.class);
         startActivity(intent);
@@ -46,9 +48,12 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void validarCampos(View v){
-        Intent intent = new Intent(this,CadastroActivity.class);
-    }
+
+
+
+
+
+
 
 
 }
