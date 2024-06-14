@@ -4,6 +4,7 @@ public class Usuario {
 
     private String nome,email,CPF,senha,spinner;
 
+
     public Usuario() {
     }
 
